@@ -1,0 +1,65 @@
+#anime{
+    background: linear-gradient(-45deg, #030100, #3ce764, #000000, #e2ff05);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+   
+}
+
+a{
+    text-decoration: none;
+}	
+h1, h2, h3{
+    font-family: serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: .75rem;
+  }
+
+  .icon-square {
+    width: 3rem;
+    height: 3rem;
+    border-radius: .75rem;
+  }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+    background-color: linear-gradient(-45deg, #030100, #3ce764, #d56723, #23d5ab);
+    color: #030100;
+    
+}
+footer a{
+    color: black;
+    font-size: 1em;
+    color: blue;
+}
+#end{
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(-45deg, #030100, #3ce764, #000000, #e2ff05);
+    animation: gradient 15s ease infinite;
+}
+#first p{
+    font-family: serif;
+    color: blue;
+    font-size: 2em;
+    
+}
